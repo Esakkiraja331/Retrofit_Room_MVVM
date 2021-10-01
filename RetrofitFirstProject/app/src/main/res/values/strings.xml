@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Retrofit First Project</string>
+    <string name="Tittle">Click on the buttons to view amazing pictures from NASA</string>
+    <string name="btnmore">More</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="tvTitle">Title:  </string>
+    <string name="tvUrl">URL:  </string>
+    <string name="tvExplanation">Explanation:  </string>
+</resources>
