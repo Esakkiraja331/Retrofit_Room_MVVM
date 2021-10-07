@@ -34,13 +34,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     MaterialTextView tittle;
 
+
     MaterialButton button1,button2,button3,button4;
     RecyclerView recyclerView;
     ActivityMainBinding activityMainBinding;
     RecyclerAdapter recyclerAdapter;
-
     ImageViewModel imageViewModel;
-
     public String count = "";
 
 

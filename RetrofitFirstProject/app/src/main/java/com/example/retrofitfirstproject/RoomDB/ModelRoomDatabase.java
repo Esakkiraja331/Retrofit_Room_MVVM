@@ -17,7 +17,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {DataModel.class},version = 2,exportSchema = false)
+@Database(entities = {DataModel.class},version = 3,exportSchema = false)
 public abstract class ModelRoomDatabase extends RoomDatabase {
 
     private static ModelRoomDatabase instance;

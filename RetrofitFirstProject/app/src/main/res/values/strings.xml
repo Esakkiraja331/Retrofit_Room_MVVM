@@ -8,5 +8,10 @@
     <string name="btn4">4</string>
     <string name="tvTitle">Title:  </string>
     <string name="tvUrl">URL:  </string>
+    <string name ="Tv_Date">Date</string>
+    <string name="Image">Image</string>
+
+
+    <string name="Tv_Media">Media Type</string>
     <string name="tvExplanation">Explanation:  </string>
 </resources>

@@ -28,7 +28,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="30dp"
         android:text="@string/btn1"
-        app:backgroundTint="@color/blue"
+        app:backgroundTint="@color/button"
         app:layout_constraintEnd_toStartOf="@+id/BT_2"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
 
         android:layout_marginTop="30dp"
         android:text="@string/btn2"
-        app:backgroundTint="@color/blue"
+        app:backgroundTint="@color/button"
         app:layout_constraintEnd_toStartOf="@+id/BT_3"
         app:layout_constraintStart_toEndOf="@+id/BT_1"
         app:layout_constraintTop_toBottomOf="@+id/TV_Tittle" />
@@ -56,7 +56,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:text="@string/btn3"
-        app:backgroundTint="@color/blue"
+        app:backgroundTint="@color/button"
         app:layout_constraintEnd_toStartOf="@+id/BT_4"
         app:layout_constraintStart_toEndOf="@+id/BT_2"
         app:layout_constraintTop_toBottomOf="@+id/TV_Tittle" />
@@ -71,7 +71,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/btn4"
-        app:backgroundTint="@color/blue"
+        app:backgroundTint="@color/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/BT_3"
         app:layout_constraintTop_toBottomOf="@+id/TV_Tittle" />
