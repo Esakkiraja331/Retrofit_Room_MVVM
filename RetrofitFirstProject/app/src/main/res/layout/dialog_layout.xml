@@ -4,17 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#E3E3E0"
+    android:minHeight="200dp"
     android:layout_margin="10dp"
     android:padding="10dp">
 
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
+        android:minHeight="100dp"
         android:layout_marginEnd="8dp"
+        app:cardCornerRadius="30dp"
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,15 +31,19 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="5dp">
+
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/TV_TittleM"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="4dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
+
+                    android:layout_marginTop="6dp"
                     android:text="@string/tvTitle"
                     android:textColor="#000000"
                     android:textSize="24sp"
@@ -43,16 +51,17 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-
                 <ImageView
                     android:id="@+id/IV_ImagesD"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginEnd="8dp"
                     android:contentDescription="@string/Image"
+                    android:minHeight="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/TV_MediaType"
                     tools:srcCompat="@tools:sample/avatars" />
 
@@ -61,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
+
                     android:layout_marginTop="14dp"
                     android:text="@string/tvUrl"
                     android:textColor="@color/blue"
@@ -74,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
+
                     android:layout_marginTop="8dp"
                     android:text="@string/Tv_Media"
                     android:textColor="@color/black"
@@ -86,13 +95,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="8dp"
-                    android:maxLines="10"
+
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="8dp"
+                    android:maxLines="6"
+                    android:paddingBottom="10dp"
                     android:scrollbars="vertical"
                     android:text="@string/tvExplanation"
                     android:textColor="@color/black"
                     android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/IV_ImagesD" />
             </androidx.constraintlayout.widget.ConstraintLayout>

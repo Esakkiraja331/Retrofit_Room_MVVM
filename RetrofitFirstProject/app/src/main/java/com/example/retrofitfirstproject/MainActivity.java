@@ -75,17 +75,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onChanged(List<DataModel> modelList) {
 
-
+                if (modelList.isEmpty()) {
+                    tittle.setVisibility(View.VISIBLE);
+                } else {
 
 
                     recyclerView.setAdapter(recyclerAdapter);
                     recyclerAdapter.getALLModelData(modelList);
                     recyclerAdapter.updateList(modelList);
+                    tittle.setVisibility(View.INVISIBLE);
 
                     Log.d("main", "onChanged: " + modelList);
+                }
+
             }
-
-
 
 
         });

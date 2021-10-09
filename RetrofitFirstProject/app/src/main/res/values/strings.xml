@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Retrofit First Project</string>
+    <string name="app_name">APOD_SampleProject</string>
     <string name="Tittle">Click on the buttons to view amazing pictures from NASA</string>
     <string name="btnmore">More</string>
     <string name="btn1">1</string>
